@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izhaq & Naeema - Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-decoration">
+        <div class="ornament ornament-1"></div>
+        <div class="ornament ornament-2"></div>
+        <div class="ornament ornament-3"></div>
+        <div class="ornament ornament-4"></div>
+    </div>
+
+    <div class="container">
+        <!-- Bismillah Section -->
+        <div class="bismillah-container">
+            <svg class="bismillah" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                <defs>
+                    <style>
+                        @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+                    </style>
+                </defs>
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="bismillah-text">
+                    بسم الله الرحمن الرحيم
+                </text>
+            </svg>
+        </div>
+
+        <!-- Envelope Section -->
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope-back"></div>
+            
+            <div class="envelope-front" id="envelopeFront">
+                <!-- Decorative flap -->
+                <div class="envelope-flap">
+                    <div class="flap-decoration-left"></div>
+                    <div class="flap-decoration-center"></div>
+                    <div class="flap-decoration-right"></div>
+                </div>
+                
+                <!-- Wax seal -->
+                <div class="wax-seal" id="waxSeal">
+                    <div class="seal-outer">
+                        <div class="seal-middle">
+                            <div class="seal-rose"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Open envelope content -->
+            <div class="envelope-open" id="envelopeOpen" style="display: none;">
+                <div class="invitation-card">
+                    <div class="card-header">
+                        <h1 class="you-are-invited">you're invited</h1>
+                        <div class="header-accent"></div>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="names">
+                            <p class="groom-name">Izhaq</p>
+                            <span class="ampersand">&</span>
+                            <p class="bride-name">Naeema</p>
+                        </div>
+
+                        <div class="divider"></div>
+
+                        <div class="wedding-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Date</span>
+                                <p class="detail-value">Saturday, June 28th, 2025</p>
+                            </div>
+
+                            <div class="detail-item">
+                                <span class="detail-label">Time</span>
+                                <p class="detail-value">6:00 PM - 11:00 PM</p>
+                            </div>
+
+                            <div class="detail-item">
+                                <span class="detail-label">Venue</span>
+                                <p class="detail-value">Grand Ballroom<br>123 Celebration Avenue</p>
+                            </div>
+
+                            <div class="detail-item">
+                                <span class="detail-label">Dress Code</span>
+                                <p class="detail-value">Formal Attire</p>
+                            </div>
+                        </div>
+
+                        <div class="rsvp-section">
+                            <p class="rsvp-text">Please join us in celebrating our marriage</p>
+                            <button class="rsvp-button">RSVP by June 14th</button>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="footer-accent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <button class="back-button" id="backButton" style="display: none;">
+            ← Back to Envelope
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
