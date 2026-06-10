@@ -91,7 +91,7 @@ wedding-invitation/
 ## Hosting on GitHub Pages
 
 1. Your invitation is already set up for GitHub Pages
-2. Visit: **https://marwaaa1508.github.io/wedding-invitation/**
+2. Visit: **https://marwaaa1508.github.io/invitation/**
 3. Share this link with your guests!
 
 ### To Enable GitHub Pages:
